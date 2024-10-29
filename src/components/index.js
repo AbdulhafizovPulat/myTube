@@ -1,0 +1,9 @@
+export { default as Main } from "./main/main";
+export { default as Channel } from "./channel/channel";
+export { default as Navbar } from "./navbar/navbar";
+export { default as SearchList } from "./search-list/search-list";
+export { default as VideoDetail } from "./video-detail/video-detail";
+export { default as SearchInput } from "./search-input/search-input";
+export { default as VideoCard } from "./videos/video-card"
+export { default as VideosList } from "./videos/videos-list"
+export { default as ChannelCard } from "./channel/channel-card"

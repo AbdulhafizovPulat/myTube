@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #c4dfe6;
+}
+
+::-webkit-scrollbar {
+  width: 0px; /* Ширина скроллбара для горизонтального скроллинга */
+  height: 1px; /* Высота скроллбара для вертикального скроллинга */
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(114, 113, 133); /* Цвет ползунка скроллбара */
+  border-radius: 10px; /* Округление углов ползунка */
+  height: 200px;
+  width: 97%;
+}
+::-webkit-scrollbar-track {
+  background: transparent; /* Цвет трека скроллбара */
+}
+
+body {
+  background-color: #003b46;
+}
